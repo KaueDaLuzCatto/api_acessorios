@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Sequelize } = require('sequelize');
 const config = require('./config');
-const acessorios = require('./models/acessorios');
 const app = express();
 const port = 80;
 // Configurar o body-parser
