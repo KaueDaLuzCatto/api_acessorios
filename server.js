@@ -5,7 +5,7 @@ const { Sequelize } = require('sequelize');
 const config = require('./config');
 const acessorios = require('./models/acessorios');
 const app = express();
-const port = 80;
+const port = 3000;
 // Configurar o body-parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
