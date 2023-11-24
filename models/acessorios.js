@@ -9,6 +9,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.TEXT,
         allowNull: true,
         },
+        foto: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            },
         preco: {
         type: DataTypes.FLOAT,
         allowNull: false,
